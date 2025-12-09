@@ -6,21 +6,18 @@ Flutter SDK 3.0+
 Dart 3.0+
 Android Studio or VS Code
 
-Installation
-bash# Clone the repository
+# Installation
+-Clone the repository
 git clone https://github.com/nourann01/SMART-Hydroponic_Flutter_MobileApp.git
 cd SMART-Hydroponic_Flutter_MobileApp
 
-# Install dependencies
+-Install dependencies
 flutter pub get
 
-# Run the app
+-Run the app
 flutter run
-Android Permissions
-Add to android/app/src/main/AndroidManifest.xml:
-xml<uses-permission android:name="android.permission.INTERNET"/>
-<uses-permission android:name="android.permission.RECORD_AUDIO"/>
-🎤 Voice Commands
+
+# 🎤 Voice Commands
 Tap the microphone icon and say:
 
 "Go to sensors"
@@ -29,6 +26,7 @@ Tap the microphone icon and say:
 "Open settings"
 "Go to alerts"
 
+# 📂 Project Structure
 lib/
 ├── core/              # Constants, services, widgets
 ├── Features/
